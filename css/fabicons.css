@@ -1,0 +1,37 @@
+.fa:hover {
+    opacity: 0.9;
+    background-color: #51ff00fb;
+}
+.fa-twitter {
+    
+    color: rgb(255, 255, 255);
+}
+
+.fa-instagram {
+    
+    color: rgb(255, 255, 255);
+}
+
+.fa-reddit {
+    
+    color: rgb(255, 255, 255);
+}
+
+.fa-discord {
+    
+    color: rgb(255, 255, 255);
+}
+
+.fab {
+    padding: 20px;
+    font-size: 60px;
+    width: 70px;
+    text-decoration: none;
+    margin: 5px 80px;
+}
+.background-info {
+    
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat
+  }
