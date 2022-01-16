@@ -35,3 +35,13 @@
     background-size: cover, cover;
     background-repeat: repeat, repeat
   }
+
+  @media screen and (max-width: 600px) {
+    .fab {
+        padding: 10px;
+        font-size: 30px;
+        width: 35px;
+        text-decoration: none;
+        margin: 5px 40px;
+    }
+  }
