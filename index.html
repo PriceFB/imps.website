@@ -1,315 +1,505 @@
 <!DOCTYPE html>
-<html>
-<title>OUR NFT</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="HandheldFriendly" content="true">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/brands.css" integrity="sha384-IiIL1/ODJBRTrDTFk/pW8j0DUI5/z9m1KYsTm/RjZTNV8RHLGZXkUDwgRRbbQ+Jh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/roadmap.css">
-<link rel="stylesheet" href="css/fabicons.css">
-<link rel="stylesheet" href="css/footer.css">
-<link rel="stylesheet" href="css/imagecontainer.css">
-<link rel="stylesheet" href="css/infinite.css">
-<link rel="stylesheet" href="css/faq.css">
-<style>
-body,h1,h2{font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-body {
-  background-image: url('');
-}
-p {line-height: 2;
-  font-size: 1.5vw;
-}
-@media screen and (max-width: 600px) {
-  p {
-    font-size: 3vw;
-  }
-}
+<html lang="en">
 
-.p1:hover {
-    background-color: #0000009d;
-}
-.bgimg, .bgimg2 {
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-.imglink:hover {
-  opacity: 0.5;
-}
-.bgimg {  
-  background-image: url("https://cdn.wallpapersafari.com/82/97/UHpNxb.jpg")
-}
-.bgimg2 {  
-  
-background-color: transparent;}
+  <head>
 
-.tile {
-  background: url('https://cdn.thingiverse.com/assets/36/87/fb/83/3c/7e884645c30fa18498a520edc82923ea.jpg') center center repeat;
-  background-size: 20em;
-      }
-
-          .parallax {
-  /* The image used */
-  background-image: url("https://i.pinimg.com/originals/47/9b/f3/479bf37a046c21e20a3e1d47eb935cdf.png");
-  /* Set a specific height */
-  min-height: 750px; 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: repeat;
-  background-size: 25em;
-}
-.parallax2 {
-  /* The image used */
-  background-image: url("https://images.wallpapersden.com/image/download/castle-artwork_bGVqamiUmZqaraWkpJRobWllrWdma2U.jpg");
-  /* Set a specific height */
-  min-height: 750px; 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.bg3 {
-  background-image: url("images/paper.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.font1{
-  font-family: 'Varela Round', sans-serif;
-  color: white;
-  font-size:x-large;
-}
-.font2{
-  font-size: 8vw;
-}
-@media screen and (max-width: 600px) {
-  .font2{
-  font-size: 12vw;
-}
-}
-.font3{
-  font-size: 5vw;
-}
-
-</style>
-
-<head><link rel="shortcut icon" type="images/x-icon" href="anime.jpg" /></head>
-
-<body class="bgimg2 font1">
-
-<!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg" id="home">
-  <div class="w3-display-middle w3-text-white w3-center">
-    <img src="https://ik.imagekit.io/bayc/assets/bayc-footer.png" alt="logo" style="width:400px;height:400px;">
-  </div>
-</header>
-
-<!-- Navbar (sticky bottom) -->
-<div class="w3-top w3-hide-small">
-  <div class="w3-bar w3-black w3-center w3-padding w3-hover-opacity-off">
-    <a href="#about" style="width:20%" class="w3-bar-item w3-button w3-hover-white">About</a>
-    <a href="#roadmap" style="width:20%" class="w3-bar-item w3-button w3-hover-white">Roadmap</a>
-    <a href="#faq" style="width:20%" class="w3-bar-item w3-button w3-hover-white">FAQ</a>
-    <a href="#team" style="width:20%" class="w3-bar-item w3-button w3-hover-white">Meet the Team</a>
-    <a href="http://localhost:3000" style="width:20%" class="w3-bar-item w3-button w3-hover-white w3-white">Mint Now</a>
-  </div>
-</div>
-
-<section class="parallax">
-
-<br>
-<div>
-  <center>  
-  <!-- Add font awesome icons -->
-  <a href="www.linkedin.com" class="fab fa-twitter"></a>
-  <a href="www.reddit.com" class="fab fa-instagram"></a>
-  <a href="www.reddit.com" class="fab fa-discord"></a>
-  <a href="www.reddit.com" class="fab fa-reddit"></a>
-  </center>
-</div>
-
-<!-- About Container -->
-
-<div class="w3-container" id="about">
-    <div class="w3-content" style="max-width:1750px">
-      <h1 class="w3-center w3-padding-64 font2"><span class="w3-tag w3-wide"><b>Lore</b></span></h1>
-
-         <!-- SOCIALS -->
-        
-         <p class="p1"><b>The Imperial Imps are an army of 5000 Imps sent to the Human Realm to wreak havoc and bring forth misfortune. They originate from the 
-           Underworld where they are spawned, trained, and commanded by The Prince of Darkness himself. Imps are often described as troublesome and 
-           mischievous, widely seen as harmless tricksters. But the truth is Imps are a dark omen. Imps are the living embodiment of the dark times still 
-           to come. If an Imp is left unchecked for an extended period of time, a cloud of confusion, anxiety, and anger will set upon the human settlement 
-           they’ve been seeded in. This in turn causes turmoil in the settlement, causing chaos, riots, and political imbalance which leads to the eventual 
-           loss of trust in leadership, anarchy, and all-out civil wars.</b></p>
-          
-           <p class="p1"><b>It should now be abundantly clear why these Imperial Imps must be delt with promptly. But Imps cannot be killed as simply as one may imagine, they are immortal. 
-           If an Imp is impaled by blade, he simply turns to Ash and spawns elsewhere to continue his reign of terror. Therefore, the only way to put an end to the Imp 
-           infestation is to contain each individual Imp. Thankfully, our team has managed to find a way to do just that!</b></p>
-          
-           <p class="p1"><b>Solana Crystals are ancient artifacts blessed by the Almighty himself. They are made to attract, capture, and house the soul of evil entities such as the 
-             Imperial Imps. If a Solana Crystal is brought close enough to an Imp, it will create a vacuum to extract the Imp’s soul and trap it within the crystal’s inner
-              chambers. As long as the Solana Crystal is kept safe, the Imp’s soul will be unable to escape, purging the Human Realm of these foul demons for good. 
-           </b></p>
-      
-      <p></p>
-    
-    </div>
- 
-  </div>
-  <br>
-
-  
-
-   <!-- Roadmap Grid -->
-    <div class="w3-container parallax" id="roadmap"> 
-      <br>
-        <div class="w3-content" style="max-width:1750px">
-          <h3 class="w3-center w3-padding-64 font2"><span class="w3-tag w3-wide"><b>ROADMAP</b></span></h3>
-            <p><b>The BAYC Bathroom will become operational once the presale period is over. It contains a canvas accessible only to wallets containing at least one ape.
-          Like any good dive bar bathroom, this is the place to draw, scrawl, or write expletives. Each ape-holder will be able to paint a pixel on the bathroom wall 
-          every fifteen minutes. Think of it as a collaborative art experiment for the cryptosphere. A members-only canvas for the discerning minds of crypto twitter./b></b></p>
-              <br>
-              <!-- Road map content-->
-
-          <div class="w3-container font1">
-            <ul class="w3-ul w3-center">
-              <li><h1 class="font2">Phase 1</h1>
-              <p> hello there</p></li>
-              <li><h1>Phase 2</h1>
-              <p> hello there</p></li>
-              <li><h1>Phase 3</h1>
-              <p> hello there</p>
-              </li>
-            </ul>
-          </div>
-    </div>
-    </div>
-
-<!--Parallax divider-->
-<!--<div class="parallax"></div>-->
-
-<!--FAQ section-->
-<body>
-  <main>
-    <h3 class="w3-center w3-padding-64 w3-text-white font2"><span class="w3-tag w3-wide" id="faq"><b>FAQ</b></span></h3>
-      <section class="faq-container w3-text-white">
-          <div class="faq-one">
-              <!-- faq question -->
-              <h4 class="faq-page w3-text-white font3 w3-center">What is an FAQ Page?</h4>
-              <!-- faq answer -->
-              <div class="faq-body parallax">
-                  <p><b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                      necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                      aperiam.
-                      Perspiciatis, porro!</b></p>
-              </div>
-          </div>
-          <hr class="hr-line">
-          <div class="faq-two">
-              <!-- faq question -->
-              <h4 class="faq-page w3-text-white font3 w3-center">Why do you need an FAQ page?</h4>
-              <!-- faq answer -->
-              <div class="faq-body parallax">
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                      necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                      aperiam.
-                      Perspiciatis, porro!</p>
-              </div>
-          </div>
-          <hr class="hr-line">
-          <div class="faq-three">
-              <!-- faq question -->
-              <h4 class="faq-page w3-text-white font3 w3-center">Does it improves the user experience of a website?</h4>
-              <!-- faq answer -->
-              <div class="faq-body parallax">
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                      necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                      aperiam.
-                      Perspiciatis, porro!</p>
-              </div>
-          </div>
-      </section>
-  </main>
-  <script src="js/faq.js"></script>
-</body>
-<br>
-
-  <!-- meet the team-->
-  <h3 class="w3-center w3-padding-64 font2"><span class="w3-tag w3-wide" id="team">MEET THE TEAM</span></h3>
-  <div class="py-5 text-center background-info" style="">
-    <div class="">
-        <div class="row">
-            <div class="mx-auto col-md-12">
-                
-            </div>
-        </div>
-        <div class="row w3-wide">
-            <div class="col-lg-6 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" alt="Card image cap" width="400" src="images/SONKgif.gif">
-                <h4 class="font3"> <b>Price</b> </h4>
-                <p class="mb-0">Lead Developer and Founder</p>
-            </div>
-            <div class="col-lg-6 col-md-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://lh3.googleusercontent.com/UoFV2HVC6fpBOC0ybX85Lus0DCunFPUENMjohCMoSSKEDbNCaYOtpCFKd4Bbbdf7P3aubU5ieEtAHYnesgadifOJUnQhxa6Nkhyz" alt="Card image cap" width="400">
-                <h4 class="font3"> <b>Affari</b> </h4>
-                <p class="mb-0">Head of Marketing and Co-founder</p>
-            </div>
-        </div>
-    </div>
-</div>
-<br>
-
-
-
-<!-- Footer-->
-<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+    <title>Bored Imp YC</title>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-softy-pinko.css">
+    <link rel="stylesheet" href="assets/css/slideshow.css">
+    </head>
 
-<body class="bgimg2">
-    <div class="footer-basic bgimg2 w3-text-white">
-        <footer>
-            <div class="social">
-              <a href="#"><i class="icon ion-social-instagram"></i></a>
-              <a href="#"><i class="icon ion-social-snapchat"></i></a>
-              <a href="#"><i class="icon ion-social-twitter"></i></a>
-              <a href="#"><i class="icon ion-social-facebook"></i></a>
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="#" class="logo">
+                            <img src="https://sothebys-md.brightspotcdn.com/a9/55/78f2994a4ab2ae2b2dd64af5b62d/yugalabs-bayc-acronym-new6.jpg" width= 160 height= 40 alt="small logo"/>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="#welcome" class="active">Home</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#work-process">Work Process</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#pricing-plans">Pricing Tables</a></li>
+                            <li><a href="#blog">Blog Entries</a></li>
+                            <li><a href="#contact-us">Mint Now</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
             </div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Services</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Terms</a></li>
-                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-            </ul>
-            <p class="copyright w3-text-white">Powered by <br>
-              <a><img width="75" src="https://upload.wikimedia.org/wikipedia/en/b/b9/Solana_logo.png"></a> 
-              <a><img width="150" src="https://hashlips.online/assets/images/logo_name.png"></a></p> 
-        </footer>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                    <center><img src="https://ik.imagekit.io/bayc/assets/bayc-footer.png" width= 400 height= 400 alt="main logo"/></center>
+                <div class="row">
+                    <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                        <h1>We provide the best <strong>strategy</strong><br>to grow up your <strong>business</strong></h1>
+                        <a href="#features" class="main-button-slider">Mint Now</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- ***** Welcome Area End ***** -->
 
-<!-- credit for Footer https://epicbootstrap.com/snippets/footer-basic -->
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section padding-top-70 padding-bottom-0" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="https://media0.giphy.com/avatars/doodlesbyburnttoast/dMqxHmPPA8fd.gif" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+                    <div class="left-heading">
+                        <h2 class="section-title">Let’s discuss about you project</h2>
+                    </div>
+                    <div class="left-text">
+                        <p>Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. Nam gravida purus non sapien auctor, ut aliquam magna ullamcorper.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-12">
+                    <div class="hr"></div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section padding-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+                    <div class="left-heading">
+                        <h2 class="section-title">We can help you to grow your business</h2>
+                    </div>
+                    <div class="left-text">
+                        <p>Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis nisi, a bibendum lectus libero vitae urna. Sed id leo eu dolor luctus congue sed eget ipsum. Nunc nec luctus libero. Etiam quis dolor elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <img src="https://lh3.googleusercontent.com/ajsk06W_seL3drbtjCcZc3IfXBKZyLZOx_oms_TW8L9CExfazUoWqpV01C85CXOK_UIEgk3YajQww5m9vfBnuhbP8lgmImPKyjwspKE=w600" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+ <!-- ***** Testimonials Start ***** -->
+ <section class="section" id="testimonials">
+    <div class="container">
+        <!-- ***** Section Title Start ***** -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="center-heading">
+                    <h2 class="section-title">What do they say?</h2>
+                </div>
+            </div>
+            <div class="offset-lg-3 col-lg-6">
+                <div class="center-text">
+                    <p>Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a turpis. Ut sagittis lectus libero.</p>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Section Title End ***** -->
+
+        <div class="row">
+            <!-- ***** Testimonials Item Start ***** -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="team-item">
+                    <div class="team-content">
+                        <center><h1>25%</h1></center>
+                        <p>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Testimonials Item End ***** -->
+            
+            <!-- ***** Testimonials Item Start ***** -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="team-item">
+                    <div class="team-content">
+                        <center><h1>50%</h1></center>
+                        <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Testimonials Item End ***** -->
+            
+            <!-- ***** Testimonials Item Start ***** -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="team-item">
+                    <div class="team-content">
+                        <center><h1>75%</h1></center>
+                        <p>Quisque diam odio, maximus ac consectetur eu, auctor non lorem. Cras quis est non ante ultrices molestie. Ut vehicula et diam at aliquam.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Testimonials Item End ***** -->
+
+                <!-- ***** Testimonials Item Start ***** -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="team-item">
+                        <div class="team-content">
+                            <center><h1>100%</h1></center>
+                            <p>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Testimonials Item End ***** -->
+
+        </div>
+    </div>
+</section>
+<!-- ***** Testimonials End ***** -->
 
 
-</body>
+    <!-- ***** Home Parallax Start ***** -->
+    <section class="mini" id="work-process">
+        <div class="mini-content">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="info">
+                            <h1>Work Process</h1>
+                            <p>Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet interdum, vehicula ut ex. Donec ante diam.</p>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- ***** Mini Box Start ***** -->
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                        <a href="#" class="mini-box">
+                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                            <strong>Get Ideas</strong>
+                            <span>Godard pabst prism fam cliche.</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                        <a href="#" class="mini-box">
+                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                            <strong>Sketch Up</strong>
+                            <span>Godard pabst prism fam cliche.</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                        <a href="#" class="mini-box">
+                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                            <strong>Discuss</strong>
+                            <span>Godard pabst prism fam cliche.</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                        <a href="#" class="mini-box">
+                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                            <strong>Revise</strong>
+                            <span>Godard pabst prism fam cliche.</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <a href="#" class="mini-box">
+                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                            <strong>Approve</strong>
+                            <span>sudi gsiugisigsihgish sdhfsihd f s sud sdfsdf sfh suh f sudf sdf s fsd fiusdfi sdiufs iufushi f sfs fuh is iuhfs iuhs hfs iuhfiushdfiusf iuh.</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                        <a href="#" class="mini-box">
+                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                            <strong>Launch</strong>
+                            <span>Godard pabst prism fam cliche.</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- ***** Mini Box End ***** -->
+            </div>
+        </div>
+    </section>
+    <!-- ***** Home Parallax End ***** -->
+
+    <!-- ***** Pricing Plans Start ***** -->
+    <section class="section colored" id="pricing-plans">
+        <div class="container">
+            <!-- ***** Section Title Start ***** -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="center-heading">
+                        <h1 class="section-title">ROADMAP</h1>
+                    </div>
+                </div>
+                <div class="offset-lg-3 col-lg-6">
+                    <div class="center-text">
+                        <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue risus volutpat.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Section Title End ***** -->
+
+            <div class="row">
+                <!-- ***** Pricing Item Start ***** -->
+                <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+                    <div class="pricing-item">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Starter</h3>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="price-wrapper">
+                                <span class="currency">$</span>
+                                <span class="price">14.50</span>
+                                <span class="period">monthly</span>
+                            </div>
+                            <ul class="list">
+                                <li class="active">60 GB space</li>
+                                <li class="active">600 GB transfer</li>
+                                <li class="active">Pro Design Panel</li>
+                                <li>15-minute support</li>
+                                <li>Unlimited Emails</li>
+                                <li>24/7 Security</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="main-button">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Pricing Item End ***** -->
+
+                <!-- ***** Pricing Item Start ***** -->
+                <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
+                    <div class="pricing-item active">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Premium</h3>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="price-wrapper">
+                                <span class="currency">$</span>
+                                <span class="price">21.50</span>
+                                <span class="period">monthly</span>
+                            </div>
+                            <ul class="list">
+                                <li class="active">120 GB space</li>
+                                <li class="active">1200 GB transfer</li>
+                                <li class="active">Pro Design Panel</li>
+                                <li class="active">15-minute support</li>
+                                <li>Unlimited Emails</li>
+                                <li>24/7 Security</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="main-button">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Pricing Item End ***** -->
+
+                <!-- ***** Pricing Item Start ***** -->
+                <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+                    <div class="pricing-item">
+                        <div class="pricing-header">
+                            <h3 class="pricing-title">Advanced</h3>
+                        </div>
+                        <div class="pricing-body">
+                            <div class="price-wrapper">
+                                <span class="currency">$</span>
+                                <span class="price">42.00</span>
+                                <span class="period">monthly</span>
+                            </div>
+                            <ul class="list">
+                                <li class="active">250 GB space</li>
+                                <li class="active">5000 GB transfer</li>
+                                <li class="active">Pro Design Panel</li>
+                                <li class="active">15-minute support</li>
+                                <li class="active">Unlimited Emails</li>
+                                <li class="active">24/7 Security</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="main-button">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Pricing Item End ***** -->
+            </div>
+        </div>
+    </section>
+    <!-- ***** Pricing Plans End ***** -->
+
+    <!-- ***** Counter Parallax Start ***** -->
+    <section class="counter">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="count-item decoration-bottom">
+                            <strong>126</strong>
+                            <span>Projects</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="count-item decoration-top">
+                            <strong>63</strong>
+                            <span>Happy Clients</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="count-item decoration-bottom">
+                            <strong>18</strong>
+                            <span>Awards Wins</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="count-item">
+                            <strong>27</strong>
+                            <span>Countries</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Counter Parallax End ***** -->   
+
+    <!-- ***** Blog Start ***** -->
+    <section class="section" id="Team">
+        <div class="container">
+            <!-- ***** Section Title Start ***** -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="center-heading">
+                        <h2 class="section-title">Meet The Team</h2>
+                    </div>
+                </div>
+                <div class="offset-lg-3 col-lg-6">
+                    <div class="center-text">
+                        <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Section Title End ***** -->
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="blog-post-thumb">
+                        <div class="img-fluid rounded">
+                            <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="assets/images/SONKgif.gif" width= 300 alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3>
+                                <a href="#">Price</a>
+                            </h3>
+                            <div class="text">
+                               Full Stack Software Developer
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="blog-post-thumb">
+                        <div class="img-fluid rounded">
+                            <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="assets/images/SONKgif.gif" width= 300 alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3>
+                                <a href="#">Affari</a>
+                            </h3>
+                            <div class="text">
+                                Head of Marketing
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ***** Blog End ***** -->
+            
+    </section>
+    <!-- ***** Contact Us End ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <ul class="social">
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-reddit"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright">Copyright &copy; 2020 Softy Pinko Company - Design: TemplateMo</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+  </body>
 </html>
